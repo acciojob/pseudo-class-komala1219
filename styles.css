@@ -1,5 +1,13 @@
 /*  your css code here. If applicable */
-span::after{
+p::after{
+	content:'After Element';
 	color:red;
 	font-size:20px;
 }
+p::before{
+
+	content:'Before Element';
+	color:red;
+	font-size:20px;	
+}
+
