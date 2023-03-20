@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-span:hover{
+span::after{
 	color:red;
 	font-size:20px;
 }
