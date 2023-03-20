@@ -1,13 +1,16 @@
 /*  your css code here. If applicable */
 p::after{
 	content:'After Element';
-	color:rgb(255, 0, 0);
+	color:red;
 	font-size:20px;
 }
 p::before{
 
 	content:'Before Element';
-	color:rgb(255, 0, 0);
+	color:red;
 	font-size:20px;	
+}
+p{
+	color:rgb(255, 0, 0);
 }
 
